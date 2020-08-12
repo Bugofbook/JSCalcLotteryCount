@@ -1,0 +1,35 @@
+{
+  "name": "jscalclotterycount",
+  "version": "1.0.0",
+  "description": "there are some function for calculate count from lottery Numbers",
+  "main": "/lib/index.js",
+  "files": ["/lib"],
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --fix lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bugofbook/JSCalcLotteryCount.git"
+  },
+  "keywords": [
+    "lottery",
+    "calc",
+    "Count"
+  ],
+  "author": "Bugofbook@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bugofbook/JSCalcLotteryCount/issues"
+  },
+  "homepage": "https://github.com/Bugofbook/JSCalcLotteryCount#readme",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.3.0"
+  }
+}
